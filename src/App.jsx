@@ -1,10 +1,14 @@
-function App() {
+import NavBar from './components/Navbar'
+import './index.css'
+import Header from './components/Header'
 
-  return (
-    <>
-    <h1 className="text-5xl font-bold text-red-500">Hello World!</h1>
-    </>
-  )
+function App() {
+	return (
+		<>
+			<NavBar />
+			<Header />
+		</>
+	)
 }
 
 export default App
