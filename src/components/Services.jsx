@@ -3,24 +3,23 @@ import services from '../services'
 
 function Main() {
 	return (
-		<div className="py-24 grid m-auto lg:grid-cols-2 mt-20 justify-center items-center xl:px-2 xlg:w-[78rem] xxl:w-[90rem]">
+		<div className="p-1 lg:grid lg:grid-cols-2 lg:my-40 md:w-[82%] md:m-auto">
 			{services.map(service => (
-				<div className="" key={service.id}>
-					<div className="flex h-72 ">
-						<img
-							className="w-16 h-16 mx-4 mt-2 xlg:w-20 xlg:h-20 xxl:w-24 xxl:h-24"
-							src={service.img}
-							alt={service.title}
-						/>
-						<div>
-							<h3 className="text-2xl font-bold mb-4 text-[#191a1b]">{service.title}</h3>
-							<p className=" max-w-xs text-2xl break-words mb-6 md:max-w-xl">
-								{service.body}
-							</p>
-							<a className="text-[#4C5FD5] text-[1.2em] font-medium" href="#">
-								Learn More →
-							</a>
-						</div>
+				<div
+					key={service.id}
+					className="w-[95%] m-auto flex flex-row my-24 lg:my-2"
+				>
+					<div className="w-[18%] max-w-24 mt-1 lg:w-[20%] mr-8">
+						<img src={service.img} alt={service.title} />
+					</div>
+					<div className="w-9/12 flex flex-col sm: lg:h-[20rem]">
+						<h3 className="text-2xl font-bold text-zinc-900">
+							{service.title}
+						</h3>
+						<p className="text-2xl py-3">{service.body}</p>
+						<a href="#" className="text-[1.2em] font-medium text-purple">
+							Learn More →
+						</a>
 					</div>
 				</div>
 			))}
