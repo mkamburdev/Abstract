@@ -10,7 +10,7 @@ function Header() {
 					<span className="text-[2.5em] tracking-tighter sm:text-[4em] lg:text-[5.1em]">
 						How can we help?
 					</span>
-					<div className="relative w-full lgs:w-[50rem]">
+					<div className="relative w-full lgs:w-[45rem]">
 						<input
 							className="appearance-none border-1 border-black text-[1.4em] hover:border-gray-400 transition-colors rounded-md w-full py-[1.2rem] px-3 border border-black text-gray-800 leading-tight focus:outline-none focus:ring-purple-600 focus:border-purple-600 focus:shadow-outline"
 							id="username"
