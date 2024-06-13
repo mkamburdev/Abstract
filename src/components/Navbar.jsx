@@ -16,7 +16,7 @@ const NavBar = () => {
 	}
 	return (
 		<>
-			<section className="navbar bg-black h-[5.50rem] flex items-center justify-center ">
+			<section className="navbar bg-black h-[5.50rem] flex items-center justify-center">
 				<div className="navbar-container flex w-11/12 lg:w-10/12">
 					<div className="navbar-left h-14 flex justify-start items-center w-full">
 						<div className="navbar-left-logo xs:w-32 lg:w-36 lg:mr-2">
@@ -41,12 +41,13 @@ const NavBar = () => {
 							</span>
 						</div>
 					</div>
+
 					<div className="navbar-right flex justify-end items-center">
-						<div className="navbar-right-search text-white text-2xl">
+						<div className="navbar-right-search text-white text-2xl xlm:hidden">
 							<FaSearch />
 						</div>
 						<div
-							className="navbar-right-menu text-white text-3xl pl-2"
+							className="navbar-right-menu text-white text-3xl pl-2 xlm:hidden"
 							style={{
 								transition: 'opacity 100ms ease-in-out',
 								opacity: iconOpacity
@@ -60,14 +61,17 @@ const NavBar = () => {
 						</div>
 					</div>
 				</div>
+
 				{isMenuOpen && (
 					<div className="bg-zinc-900 h-52 flex flex-col justify-center items-center absolute left-0 top-[5.5rem] z-10 w-full">
-						<span className="text-2xl text-zinc-100 h-16 grid place-items-center border-b cursor-pointer">
-							Submit a request
-						</span>
-						<span className="text-2xl text-zinc-100 h-16 grid place-items-center cursor-pointer">
-							Sign in
-						</span>
+						<div className="w-6/12">
+							<span className="text-2xl text-zinc-100 h-16 grid place-items-center border-b cursor-pointer">
+								Submit a request
+							</span>
+							<span className="text-2xl text-zinc-100 h-16 grid place-items-center cursor-pointer">
+								Sign in
+							</span>
+						</div>
 					</div>
 				)}
 			</section>
