@@ -3,12 +3,12 @@ import services from '../services'
 
 function Main() {
 	return (
-		<div className="py-24 grid m-auto lg:grid-cols-2 mt-20 justify-center items-center xl:px-2 xlg:w-[78rem]">
+		<div className="py-24 grid m-auto lg:grid-cols-2 mt-20 justify-center items-center xl:px-2 xlg:w-[78rem] xxl:w-[90rem]">
 			{services.map(service => (
 				<div className="" key={service.id}>
 					<div className="flex h-72 ">
 						<img
-							className="w-16 h-16 mx-4 mt-2"
+							className="w-16 h-16 mx-4 mt-2 xlg:w-20 xlg:h-20 xxl:w-24 xxl:h-24"
 							src={service.img}
 							alt={service.title}
 						/>
