@@ -18,7 +18,8 @@ export default {
 			lgs: '864px',
 			xl: '1024px',
 			xlm: '1200px',
-			xlg: '1280px'
+			xlg: '1280px',
+			xxl: '1464px'
 		}
 	},
 	plugins: []
