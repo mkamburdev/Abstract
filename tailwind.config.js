@@ -19,7 +19,8 @@ export default {
 			xl: '1024px',
 			xlm: '1200px',
 			xlg: '1280px',
-			xxl: '1464px'
+			xxl: '1464px',
+			xxxl: '1880px'
 		}
 	},
 	plugins: []
