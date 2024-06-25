@@ -17,9 +17,9 @@ const NavBar = () => {
 	return (
 		<>
 			<section className="navbar bg-black h-[5.50rem] flex items-center justify-center">
-				<div className="navbar-container flex w-11/12 lg:w-10/12">
+				<div className="navbar-container flex w-11/12 lg:w-10/12 xxxl:w-[104rem]">
 					<div className="navbar-left h-14 flex justify-start items-center w-full">
-						<div className="navbar-left-logo xs:w-32 lg:w-36 lg:mr-2 cursor-pointer hover:text-gray-500">
+						<div className="navbar-left-logo xs:w-32 lg:mr-2 cursor-pointer hover:text-gray-500">
 							<span className="text-white text-2xl font-semibold w-full flex">
 								<svg
 									className="abstract-logo logo"
