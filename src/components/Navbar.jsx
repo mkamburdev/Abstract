@@ -20,7 +20,7 @@ const NavBar = () => {
 				<div className="navbar-container flex w-11/12 lg:w-10/12">
 					<div className="navbar-left h-14 flex justify-start items-center w-full">
 						<div className="navbar-left-logo xs:w-32 lg:w-36 lg:mr-2 cursor-pointer hover:text-gray-500">
-							<span className="text-white text-2xl font-semibold w-full flex ">
+							<span className="text-white text-2xl font-semibold w-full flex">
 								<svg
 									className="abstract-logo logo"
 									xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const NavBar = () => {
 						<div
 							className="navbar-right-menu text-white text-3xl pl-2 xlm:hidden"
 							style={{
-								transition: 'opacity 100ms ease-in-out',
+								transition: 'opacity 500ms ease-in-out',
 								opacity: iconOpacity
 							}}
 						>
@@ -58,6 +58,10 @@ const NavBar = () => {
 							) : (
 								<LuMenu className="cursor-pointer" onClick={toggleMenu} />
 							)}
+						</div>
+						<div className="hidden xlm:flex">
+							<button className="text-2xl text-white w-60 h-[3.1rem] bg-[#191a1b] border-[0.1rem] rounded-lg border-white mx-5">Submit a request</button>
+							<button className="text-2xl text-white w-36 h-[3.1rem] bg-purple rounded-lg hover:bg-white hover:text-black hover:duration-300">Sign in</button>
 						</div>
 					</div>
 				</div>
