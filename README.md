@@ -3,11 +3,7 @@
 
 </div>
 
-<div align="center">
-
-## Abstract Project
-
-</div>
+<hr />
 
 <div>
 <p align="center">
