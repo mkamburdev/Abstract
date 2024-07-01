@@ -59,3 +59,46 @@ This is a [Frontend Practice](https://www.frontendpractice.com/projects/abstract
 | Tumbleweed         | ![#ffffff](https://via.placeholder.com/15/fff?text=+) #ffffff
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
+
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+
+Clone the project:
+
+```bash
+git clone git@github.com:mkamburdev/Abstract.git
+```
+
+Go to the project directory:
+
+```bash
+cd Abstract
+```
+
+Install the required packages:
+
+```bash
+npm install
+```
+
+Launch the application:
+
+```bash
+npm run dev
+```
+
+<p align="right">(<a href="#readme">back to top</a>)</p>
+
+## Demo
+
+[https://abstract-mk.vercel.app/](https://abstract-mk.vercel.app/ 'Abstract Project | mkamburdev')
+
+<p align="right">(<a href="#readme">back to top</a>)</p>
+
+## Contact
+
+Muhammed Kambur - [@mkambur](https://linkedin.com/in/mkambur) - info@mkambur.com
+
+
+<p align="right">(<a href="#readme">back to top</a>)</p>
